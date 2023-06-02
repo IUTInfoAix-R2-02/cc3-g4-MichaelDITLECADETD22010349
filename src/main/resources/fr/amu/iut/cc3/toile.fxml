@@ -6,7 +6,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<HBox id="scene" prefHeight="420.0" prefWidth="650.0" style="-fx-background-color: lightblue" spacing="20.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<HBox id="scene" prefHeight="420.0" prefWidth="650.0" spacing="20.0" style="-fx-background-color: lightblue" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
     <Pane prefHeight="400.0" prefWidth="400.0">
         <Circle centerX="200.0" centerY="200.0" radius="200.0" styleClass="toile" />
         <Circle centerX="200.0" centerY="200.0" radius="150.0" styleClass="toile" />
@@ -32,38 +32,38 @@
          <HBox prefHeight="74.0" prefWidth="229.0" />
          <HBox prefHeight="54.0" prefWidth="229.0">
             <children>
-               <Label text="Compétence 1 - Réaliser" style="-fx-font-size: 11" />
-               <TextField prefHeight="24.0" prefWidth="52.0" />
+               <Label style="-fx-font-size: 11" text="Compétence 1 - Réaliser" />
+               <TextField id="comp1" prefHeight="24.0" prefWidth="52.0" />
             </children>
          </HBox>
          <HBox prefHeight="41.0" prefWidth="229.0">
             <children>
-               <Label text="Compétence 2 - Optimiser" style="-fx-font-size: 11" />
-               <TextField prefHeight="24.0" prefWidth="42.0" />
+               <Label style="-fx-font-size: 11" text="Compétence 2 - Optimiser" />
+               <TextField id="comp2" prefHeight="24.0" prefWidth="42.0" />
             </children></HBox>
          <HBox prefHeight="51.0" prefWidth="229.0">
             <children>
-               <Label text="Compétence 3 - Administrer" style="-fx-font-size: 11" />
-               <TextField prefHeight="24.0" prefWidth="37.0" />
+               <Label style="-fx-font-size: 11" text="Compétence 3 - Administrer" />
+               <TextField id="comp3" prefHeight="24.0" prefWidth="37.0" />
             </children></HBox>
          <HBox prefHeight="45.0" prefWidth="229.0">
             <children>
-               <Label text="Compétence 4 - Gérer" style="-fx-font-size: 11" />
-               <TextField prefHeight="24.0" prefWidth="44.0" />
+               <Label style="-fx-font-size: 11" text="Compétence 4 - Gérer" />
+               <TextField id="comp4" prefHeight="24.0" prefWidth="44.0" />
             </children></HBox>
          <HBox prefHeight="44.0" prefWidth="229.0">
             <children>
-               <Label text="Compétence 5 - Conduire" style="-fx-font-size: 11" />
-               <TextField prefHeight="24.0" prefWidth="39.0" />
+               <Label style="-fx-font-size: 11" text="Compétence 5 - Conduire" />
+               <TextField id="comp5" prefHeight="24.0" prefWidth="39.0" />
             </children></HBox>
          <HBox prefHeight="43.0" prefWidth="229.0">
             <children>
-               <Label text="Compétence 6 - Collaborer" style="-fx-font-size: 11"/>
-               <TextField prefHeight="24.0" prefWidth="41.0" />
+               <Label style="-fx-font-size: 11" text="Compétence 6 - Collaborer" />
+               <TextField id="comp6" prefHeight="24.0" prefWidth="41.0" />
             </children></HBox>
          <HBox prefHeight="48.0" prefWidth="229.0">
             <children>
-               <Button mnemonicParsing="false" text="Tracer" />
+               <Button id="tracer" mnemonicParsing="false" text="Tracer" />
                <Button mnemonicParsing="false" text="Vider" />
             </children></HBox>
       </children></VBox>
